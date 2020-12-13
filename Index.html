@@ -1,12 +1,148 @@
 <!DOCTYPE html>
 <html>
-    <head><title>Maria Kupa</title></head>
-<body>
-    <h1>Maria Kupa</h1>
-    <ul>
-        <li>Python</li>
-        <li>Javascript</li>
-        <li>HTML</li>
-    </ul>
-</body>
+    <head>
+        <title>Maria Kupa</title>
+        <style>body{margin:0px;}
+            .container{background-color:#69107E;
+              font-size:35px;
+              color:white;
+              position:fixed;  
+              display:flex;
+              justify-content:space-between;
+              align-items:center; 
+              font-family:cursive;
+              top:0px;
+              left:0px;
+              width:100%;
+              
+            }
+            #bars{
+              margin-left:100px;
+            }
+            .nav-link{
+              color:white;
+              position:left;
+              text-decoration: none;
+              cursor:pointer;
+            }
+            #navbar{ text-align:right;  
+              word-spacing:20px;
+              margin-right:50px;
+            }
+            #welcome-section{ 
+             background: url("https://cdn.pixabay.com/photo/2018/04/28/22/03/dawn-3358468_1280.jpg") 50% 0 repeat fixed;
+              background-position:center;
+              background-size: cover;
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              min-height:500px;
+              width: 100%;
+              min-height: 1000px;
+            }
+            #welcome-section h1{text-align:center;
+            color:white;
+            font-size:40px;
+            }
+            
+            #welcome-section h3{text-align:center;
+            color:white;
+            }
+            #CV{background:url("https://cdn.pixabay.com/photo/2017/09/16/16/09/sea-2755908_1280.jpg") 50% 0 repeat fixed;
+            background-position:center;
+            background-size: cover;
+            padding: 14% 15px;
+            min-height: 1000px;}
+            
+            .CV{text-align:center;
+            color:white;
+            }
+            .CV ul{text-align:left;
+            display: inline-block;
+             list-style-type: square;
+             }
+            
+            #Projects{background:url("https://cdn.pixabay.com/photo/2015/03/26/09/55/plants-690579_1280.jpg") 50% 0 repeat fixed;
+            background-size:cover;
+            background-position:center;
+            padding:14% 15px;
+            min-height: 1000px;
+            text-align:center;
+            color:white;}
+            
+            .project-tile { font-size:25px;
+              color:white;
+               word-spacing:5px;
+              text-decoration: none;
+            }
+            #Contact{background:url("https://images.pexels.com/photos/1486121/pexels-photo-1486121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")50% 0 repeat fixed;
+            background-size:cover;
+            background-position:center;
+            padding:14% 15px;
+            min-height: 800px;
+            text-align:center;
+            color:white;}
+            
+            .profile-link {
+             font-size:20px;
+            text-decoration:none;
+            color:white}
+            
+            
+            </style>
+    </head>
+   
+    <body><div class="container">
+        <div id="bars">
+          <p>Maria Kupa</p>
+        </div>
+        <div>
+          <nav id="navbar">
+              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="#CV">CV</a>
+              <a class="nav-link" href="#Projects">Projects</a>
+              <a class="nav-link" href="#Contact ">Contact</a>
+          </nav>
+        </div>
+        </div>
+        <section id="welcome-section" >
+          <h1 id="About">Maria Kupa</h1>
+          <h3>Developer</h3>
+        </section>
+        <div id="CV" class="CV">
+          <h1>CV</h1>
+          <h2>Education</h2>
+          <ul>
+            <li>Masterprogram i bank och finans/finansiell ekonomi, Stockholms universitet</li>
+            <li>Kandidatprogram i företagsekonomi med inriktning mot finans, Stockholms Universitet</li>
+            <li>Utbytestermin, University of Victoria, British Columbia, Kanada</li>
+            <li>Gymnasiala studier med inriktning på matematik och fysik i Minsk, Belarus</li>
+          </ul>
+          <h2>Experience</h2>
+          <ul>
+            <li>Corporate Actions - Avanza Bank AB</li>
+            <li>Handläggare & Ekonomiassistent - Omställningsfonden (KOM-KR)</li>
+          </div>
+          <div id="Projects">
+            <h1>Completed projects</h1>
+            <div class="project grid">
+             <p> <a href="https://codepen.io/maria-kupa/full/zYBZexL" target="_blank"
+                    class="project-tile">Tribute Page</a></p>
+             <p>  <a href="https://codepen.io/maria-kupa/pen/eYzvxmM" target="_blank"
+                     class="project-tile">Survey Form</a></p>
+            <p>  <a href="https://codepen.io/maria-kupa/pen/VwjNPXy" target="_blank"
+                    class="project-tile">Product Landing Page</a></p>
+              <p> <a href="https://codepen.io/maria-kupa/pen/poEvzrz" target="_blank"
+                     class="project-tile">Technical Documentation Page</a></p>
+            </div>
+          </div>
+          <div id="Contact">
+            <h1>Contacts</h1>
+            <h2 style="font-size:20px;">Email: marusia.kupa@gmail.com</h2>
+            <h3>or</h3>
+            <a href="https://www.linkedin.com/in/maria-kupa-4094b4158/" class="profile-link" target="_blank">My Linkedin</a>
+            <p><h1 style="margin-top:60px;">Let's work together!</h1></p>
+          </div>
+        </body>
 </html>
